@@ -6,3 +6,8 @@ if __name__ == '__main__':
     parser.add_argument('-m', '--model', type =str , required ='True', help='Model')
     parser.add_argument('-o', '--owner', type =str , help='Model number')
     args = parser.parse_args()
+
+
+
+#############tutorial #######################
+https://www.youtube.com/watch?v=cdblJqEUDNo
