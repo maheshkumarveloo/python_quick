@@ -1,0 +1,10 @@
+class ErrorCode:
+    def __init__(self):
+        self.status = True
+        self.message = 'Not created'
+
+    def update_error(self, status, message):
+        self.message = status
+        self.status = message
+
+
