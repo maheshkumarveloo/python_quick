@@ -1,0 +1,8 @@
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Eample')
+    parser.add_argument('-p', '--path', type =str , required ='True', help='Path ')
+    parser.add_argument('-m', '--model', type =str , required ='True', help='Model')
+    parser.add_argument('-o', '--owner', type =str , help='Model number')
+    args = parser.parse_args()
